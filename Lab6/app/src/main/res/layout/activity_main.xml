@@ -1,0 +1,11 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="24dp" android:gravity="center">
+<TextView android:id="@+id/role" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Гість" android:textSize="24sp"/>
+<TextView android:id="@+id/time" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="60" android:textSize="24sp"/>
+<EditText android:id="@+id/email" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Email" android:inputType="textEmailAddress"/>
+<EditText android:id="@+id/password" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Пароль" android:inputType="textPassword"/>
+<Button android:id="@+id/login" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Вхід"/>
+<Button android:id="@+id/logout" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Вийти"/>
+<Spinner android:id="@+id/categories" android:layout_width="match_parent" android:layout_height="wrap_content" />
+<ListView android:id="@+id/books" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+<Button android:id="@+id/add" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Додати книгу"/>
+</LinearLayout>

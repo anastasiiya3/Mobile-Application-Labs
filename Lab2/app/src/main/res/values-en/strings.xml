@@ -1,0 +1,1 @@
+<resources><string name="app_name">My travels</string><string name="change_color">Change background</string><string-array name="cities"><item>Chernivtsi</item><item>Berlin</item></string-array><string name="selected">Selected city: %1$s</string></resources>
